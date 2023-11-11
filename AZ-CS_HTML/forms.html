@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8" />
+        <link rel="icon" href="favicon.ico"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="SEO, search engine optimization, SEO services, SEO company, SEO Master">
+        <meta name="description" content="SEO Master is a leading SEO company that offers customized and effective solutions for your online presence. Whether you need to rank higher, drive more traffic, or increase conversions, SEO Master can help you achieve your goals. Contact us today for a free consultation.">
+        <title>Forms_Html</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        <header>
+            <h1>This is a Header</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+      <main>    
+        <section>
+            <h2>User Information Form</h2>
+
+            <form action="/submit" method="post">
+        
+                <!-- Name -->
+                <label for="name">Name:</label>
+                <input type="text" id="idname"  name="name" placeholder="your fullname " required>
+        
+                <br>
+        
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="idemail" name="email" placeholder="your email "  required>
+        
+                <br>
+        
+                <!-- Age -->
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="5" max="150" placeholder="150 years " required>
+        
+                <br>
+        
+                <!-- Phone Number -->
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"  maxlength="14" placeholder="1234567890" required>
+                <small>Format: 1234567890</small>
+        
+                <br>
+        
+                <!-- Date of Birth -->
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+        
+                <br>
+        
+                <!-- Country of Residence -->
+                <label for="country">Country of Residence:</label>
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="usa">United States</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                    <!-- more countries can be added -->
+                </select>
+               
+                <br>
+        
+                <br>
+               <!-- For comments and Feedbacks -->
+                <label for="comments">Comments/Feedback:</label>
+                <br>
+                <textarea id="idcomments" name="comments" rows="4" cols="50"  ></textarea>
+        
+                <br>
+        
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Additional User Information Form For Task 2</h2>
+
+            <form action="/submit" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="idname" name="name" placeholder="your fullname " required>
+        
+                <br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="idemail" name="email" placeholder="example@gmail.com" required>
+        
+                <br>
+        
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+        
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+        
+                <br>
+        
+                <label>Hobbies:</label>
+                <input type="checkbox" id="reading" name="hobbies" value="reading">
+                <label for="reading">Reading</label>
+        
+                <input type="checkbox" id="sports" name="hobbies" value="sports">
+                <label for="sports">Sports</label>
+        
+                <input type="checkbox" id="music" name="hobbies" value="music">
+                <label for="music">Music</label>
+        
+                <input type="checkbox" id="travel" name="hobbies" value="travel">
+                <label for="travel">Travel</label>
+        
+                <!-- More checkboxes for other hobbies can be added as needed -->
+        
+                <br>
+        
+                <br>
+                   <!-- For comments and Feedbacks -->
+                <label for="comments">Comments/Feedback:</label>
+                <br>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        
+                <br>
+        
+                <input type="submit" value="Submit">
+            </form>
+
+
+        </section>
+
+        <section>
+            <article>
+                <h2>Article Title</h2>
+                <p>This is some content within an article.</p>
+            </article>
+    
+            <article>
+                <h2>Another Article Title</h2>
+                <p>More content within another article.</p>
+            </article>
+        </section>
+        </main>
+        <aside>
+            <h2>Aside Section</h2>
+            <p>This is content in the aside section.</p>
+        </aside>
+    
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2023 Forms Assigment AZC5</p>
+        </footer>
+
+        <script src="" async defer></script>
+    </body>
+</html>
