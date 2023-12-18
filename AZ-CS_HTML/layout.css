@@ -1,0 +1,176 @@
+
+#title {
+  text-align: left;
+}
+ 
+ .flex {
+    display: flex;
+    flex-direction: column;
+    background-color: #8b0000;
+    box-sizing: border-box;
+    color: #f5f5f5;
+    height:50%;
+    width:50%;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin:10px
+
+ }
+ 
+  .company-logo-slogan{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1c1c;
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+    text-align: center;
+ }
+ 
+ 
+ .header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1c1c;
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+    text-align: center;
+ }
+
+ .navigation {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+ }
+
+ .navigation > div {
+    background-color: #1f1c1c;
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;  
+    
+ }
+
+ .column-row {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    width: 100%;
+ }
+
+ .about {
+    width: 18rem;
+    height: auto;
+    background-color: #1f1c1c;
+    border: 30px transparent ;
+    margin: 10px;
+    padding:10% 14% 12% 11%;
+    font-size: 30px;
+    justify-content: right;  
+ }
+
+ .row > div {
+    width: 75%;
+    text-align: center;
+}
+
+.quick-links1 {
+    height: auto;
+    background-color: #1f1c1c;
+    margin: 10px 50px 10px 0px;
+    padding:10% 14% 12% 7%;
+    font-size: 30px;
+
+}
+
+ .quick-links2 {
+    height: 34%;
+    background-color: #1f1c1c;
+    margin: 10px 50px 20px 0px;
+    padding:10% 14% 12% 7%;
+    font-size: 30px;
+}
+
+.site-plan-copyright-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1c1c;
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+    text-align: center;
+}  
+
+/* Grid Container*/
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3);
+gap: 10px;
+grid-auto-rows: minmax(100px, auto);
+gap: 10px;
+background-color: #192025;
+padding: 9px;
+}
+
+.grid-container > div {
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+justify-tracks: center;
+padding: 20px 0;
+font-size: 30px;
+}
+
+
+.item1 {
+  grid-column: 1 / 5;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 1 / 5;
+  grid-row: 2;
+}
+
+.item3 {
+  grid-column: 1/2 ;
+  grid-row: 3;
+}
+
+.item4 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.item5 {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.item6 {
+  grid-column: 4;
+  grid-row: 3;
+}
+
+.item7 {
+  grid-column: 1 / 3;
+  grid-row: 4/6;
+  
+}
+
+.item8 {
+  grid-column:  3/5;
+  grid-row: 4;
+}
+
+.item9 {
+  grid-column:3/5;
+  grid-row: 5;
+}
+
+.item10 {
+  grid-column: 1 / 5;
+  grid-row: 6;
+}
+
