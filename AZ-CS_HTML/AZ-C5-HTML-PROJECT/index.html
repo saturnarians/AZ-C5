@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./images/favicon.ico">
+    <title>My Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <header>
+  
+   <nav >
+     <!--Web menu -->
+   <div class="desktopNavMenu" id="desktopNavMenu">
+    <img src="images/logo.jpeg" alt="" id="navImg">
+    <a href="#home" class="hover">Home</a>
+    <a href="#About" class="hover">About</a>
+    <a href="#Contact" class="hover" >Contact</a>
+    <!-- <a href="#skills" class="hover" >Projects</a> -->
+    <!-- <a href="#clients" class="hover">Clients</a> -->
+    <!-- <a href="#" class="hover">Blog</a> -->
+  </div>
+
+
+   <!--Mobile menu -->
+   <div id="mobile-menu">
+    <div id="menu-bar" onclick="menuOnClick()">
+      <div id="bar1" class="bar"></div>
+      <div id="bar2" class="bar"></div>
+      <div id="bar3" class="bar"></div>
+    </div>
+    <div class="nav" id="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <!-- <li><a href="#">Blog</a></li> -->
+        <!-- <li><a class="hover" href="#skills">Projects</a></li> -->
+        <!-- <li><a href="#clients">Clients</a></li> -->
+      </ul>
+    </div> 
+  </div>
+</nav>
+<div class="menu-bg" id="menu-bg"></div>
+<script>
+function menuOnClick() {
+ document.getElementById("menu-bar").classList.toggle("change");
+ document.getElementById("nav").classList.toggle("change");
+ document.getElementById("menu-bg").classList.toggle("change-bg");
+}
+</script>
+
+</header>
+
+  <body>
+    <!-- Hero Image -->
+    <div class="background-container">
+      <!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt=""> -->
+      <div class="stars"></div>
+      <div class="twinkling"></div>
+      <!-- <div class="clouds"></div> -->
+    <!-- <h1>Portfolio </h1> -->
+  
+ <main>
+  <div class="hero-text-parent">
+    <div class="hero-text">
+      <h1 class="hero-text1" >I am Isibor Jerry</h1>
+      <p>And I'm a Web Developer</p>
+      <button>Hire me</button>
+    </div>
+  </div>
+ </main>
+ <section></section>
+ <section></section>
+
+    <script src="" async defer></script>
+  </body>
+
+  <footer class="footer">
+    <!-- <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+    </ul> -->
+    <p>&copy;2021 Isibor Jerry| All Rights Reserved</p>
+
+  </footer>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Layout</title>
+        <link rel="icon" href="./favicon.ico">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+      
+     <style>
+
+    #title {
+      text-align: left;
+    }
+     
+     .flex {
+        display: flex;
+        flex-direction: column;
+        background-color: #8b0000;
+        box-sizing: border-box;
+        color: #f5f5f5;
+        height:50%;
+        width:50%;
+        flex-wrap: wrap;
+
+     }
+     
+      .company-logo-slogan{
+        display: flex;
+        flex-direction: column;
+        background-color: #1f1c1c;
+        margin: 10px;
+        padding:20px;
+        font-size: 30px;
+        text-align: center;
+     }
+     
+     
+     .header {
+        display: flex;
+        flex-direction: column;
+        background-color: #1f1c1c;
+        margin: 10px;
+        padding:20px;
+        font-size: 30px;
+        text-align: center;
+     }
+
+     .navigation {
+        display: flex;
+        justify-content: center; 
+        text-align: center;
+     }
+
+     .navigation > div {
+        background-color: #1f1c1c;
+        width: 100%;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;  
+        
+     }
+
+     .column-row {
+        display: flex;
+        text-align: center;
+        justify-content:center;
+        width: 100%;
+     }
+
+     .about {
+        width: 18rem;
+        height: auto;
+        background-color: #1f1c1c;
+        border: 30px transparent ;
+        margin: 10px;
+        padding:10% 14% 12% 11%;
+        font-size: 30px;
+        justify-content: right;  
+     }
+
+     .row > div {
+        width: 75%;
+        text-align: center;
+    }
+
+    .quick-links1 {
+        height: auto;
+        background-color: #1f1c1c;
+        margin: 10px 50px 10px 0px;
+        padding:10% 14% 12% 7%;
+        font-size: 30px;
+
+    }
+
+     .quick-links2 {
+        height: 34%;
+        background-color: #1f1c1c;
+        margin: 10px 50px 20px 0px;
+        padding:10% 14% 12% 7%;
+        font-size: 30px;
+    }
+
+    .site-plan-copyright-info {
+        display: flex;
+        flex-direction: column;
+        background-color: #1f1c1c;
+        margin: 10px;
+        padding:20px;
+        font-size: 30px;
+        text-align: center;
+    }  
+
+   /* Grid Container*/
+
+   .item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+     </style>
+    </head>
+    <body>
+       <main> 
+
+        <h1 id="title">Flex Box :</h1>
+        
+           <div class="flex">
+            <div class="company-logo-slogan">company-logo-slogan</div>
+           <div class="header">header</div>
+          <div class="navigation">
+            <div class="col">navigation</div>
+            <div class="col1">1</div>
+            <div class="col2">1</div>
+            <div class="col3">1</div>
+          </div>
+          <div class="column-row">
+         <div class="about">about</div>
+        <div class="row">
+        <div class="quick-links1">quick-links</div>
+      <div class="quick-links2">quick-links2</div>
+    </div>
+    </div>
+    <div class="site-plan-copyright-info">site-plan-copyright-info</div>
+</div>
+
+<section>
+
+    <h1>Grid :</h1>
+
+    <div class="grid-container">
+        <div class="item1">Header</div>
+        <div class="item2">Menu</div>
+        <div class="item3">Main</div>  
+        <div class="item4">Right</div>
+        <div class="item5">Footer</div>
+      </div>
+    
+</section>
+       </main>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
