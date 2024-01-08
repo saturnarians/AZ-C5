@@ -121,20 +121,15 @@ img{
       }
       
   .desktopNavMenu a {
-        float: left;
-        display: block;
+        display:flex;
         color: #f2f2f2 ;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+        padding: 14px 50px;
         font-size: 17px;       
-        position: relative;
-        z-index: 2;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        position:relative;
+        z-index: 3;
         transition: 0.5s;
+        left:50%;
+        
       }
       
   .desktopNavMenu a:hover {
